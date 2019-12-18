@@ -3,7 +3,19 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  intialValues: {
+    metric: 'Crime Type: Property Crime',
+    metricColor: '#333333',
+    subject: 'Kansas City, MO',
+    subjectColor: '#333333',
+    value: '21236',
+    valueColor: '#0075A4',
+    unit: 'Offenses',
+    unitColor: '#333333',
+    icon: 2,
+    iconColor: '#0075A4'
+  }
 };
 
 /*

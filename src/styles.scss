@@ -28,8 +28,5 @@ $callout-example-theme: mat-light-theme($callout-example-primary, $callout-examp
 @include angular-material-theme($callout-example-theme);
 
 /* You can add global styles to this file, and also import other style files */
-body {
-    font-family: 'Roboto', sans-serif;
-}
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'Arial Bold', "Helvetica Neue", sans-serif; }

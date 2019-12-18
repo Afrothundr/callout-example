@@ -2,10 +2,20 @@ main {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 66%;
+    padding: 1rem;
+
+    @media screen and (max-width: 900px) {
+        align-items: center;
+        flex-direction: column;
+    }
 
     app-callout {
         margin-right: 2rem;
         width: 66%;
+
+        @media screen and (max-width: 900px) {
+            margin: 0 0 2rem;
+            width: 100%;
+        }
     }
 }
