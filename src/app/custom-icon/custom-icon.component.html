@@ -1,0 +1,7 @@
+<div [ngSwitch]='icon'>
+    <app-alarm-icon [color]="iconColor" *ngSwitchCase=0></app-alarm-icon>
+    <app-city-icon [color]="iconColor" *ngSwitchCase=1></app-city-icon>
+    <app-crime-icon [color]="iconColor" *ngSwitchCase=2></app-crime-icon>
+    <app-home-icon [color]="iconColor" *ngSwitchCase=3></app-home-icon>
+    <app-police-icon [color]="iconColor" *ngSwitchCase=4></app-police-icon>
+</div>

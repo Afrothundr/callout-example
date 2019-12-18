@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 66%;
+
+    app-callout {
+        margin-right: 2rem;
+        width: 66%;
+    }
+}

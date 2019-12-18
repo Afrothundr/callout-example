@@ -1,0 +1,48 @@
+<form [formGroup]="calloutForm" class="callout-form">
+    <div class="callout-form__input-container">
+        <div class="callout-form__input">
+            <label for="metric">Metric</label>
+            <input formControlName="metric" name="metric">
+        </div>
+        <input type="color" value="#e66465" formControlName="metricColor">
+    </div>
+
+    <div class="callout-form__input-container">
+        <div class="callout-form__input">
+            <label for="subject">Subject</label>
+            <input formControlName="subject" name="subject">
+        </div>
+        <input type="color" value="#e66465" formControlName="subjectColor" name="subjectColor">
+    </div>
+
+    <div class="callout-form__input-container">
+        <div class="callout-form__input">
+            <label for="value">Value</label>
+            <input type=number formControlName="value" name="value">
+        </div>
+        <input type="color" value="#e66465" formControlName="valueColor">
+    </div>
+
+    <div class="callout-form__input-container">
+        <div class="callout-form__input">
+            <label for="unit">Unit</label>
+            <input formControlName="unit" name="unit">
+        </div>
+        <input type="color" value="#e66465" formControlName="unitColor">
+    </div>
+
+    <div class="callout-form__input-container">
+        <div class="callout-form__input">
+            <label for="icon">Icon</label>
+            <select formControlName="icon" name="icon">
+                <option value="0">alarm</option>
+                <option value="1">city</option>
+                <option value="2">crime</option>
+                <option value="3">home</option>
+                <option value="4">police</option>
+            </select>
+        </div>
+        <input type="color" value="#e66465" formControlName="iconColor">
+    </div>
+
+</form>

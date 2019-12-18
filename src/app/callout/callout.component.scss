@@ -1,0 +1,32 @@
+.callout {
+    border: 3px solid #F4F4F4;
+    border-radius: 3px;
+    display: flex;
+    padding: 1rem 0;
+
+    &__panel {
+        h1 {
+            font-family: 'Roboto Black';
+            font-size: 2.5rem;
+            margin: 0;
+            
+        }
+        h3 {
+            font-weight: 700;
+            font-size: 1.75rem;
+            margin: 0;
+        }
+        h6 {
+            font-size: 1rem;
+            font-weight: 700;
+            margin: 0 0 1rem;
+        }
+        p {
+            margin: 0;
+        }
+    }
+
+    app-custom-icon {
+        margin: 0 1rem;
+    }
+}

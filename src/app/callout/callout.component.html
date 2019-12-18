@@ -1,0 +1,9 @@
+<aside class="callout">
+    <app-custom-icon [icon]="displayValues.icon" [iconColor]="displayValues.iconColor"></app-custom-icon>
+    <div class="callout__panel">
+        <h1 [ngStyle]="{'color': displayValues.valueColor}">{{displayValues.value | number}}</h1>
+        <h6 [ngStyle]="{'color': displayValues.unitColor}">{{displayValues.unit}}</h6>
+        <h3 [ngStyle]="{'color': displayValues.metricColor}">{{displayValues.metric}}</h3>
+        <p [ngStyle]="{'color': displayValues.subjectColor}">{{displayValues.subject}}</p>
+    </div>
+</aside>
